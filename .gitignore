@@ -1,0 +1,10 @@
+./datasets/cezanne2photo
+./datasets/monet2photo
+./datasets/ukiyoe2photo
+./datasets/vangogh2photo
+./checkpoints/monet2photo_pretrained
+./checkpoints/monet_cyclegan
+./checkpoints/style_monet_pretrained
+./checkpoints/style_vangogh_pretrained
+./Azhuan/
+.DS_Store
