@@ -4,6 +4,7 @@
 - put your pirctures at `./Azhuan/A`
 - run the script with `python transfer.py --model_name={your model name} --checkpoint_name={your checkpoint name} --no_dropout`
 - the results will be saved at `./Azhuan/B`
+- reminder: G_B is to transfer photo to a style picture and G_A is to transfer a style picture to a photo.
 ## Prerequisites
 - Linux or macOS
 - Python 3
