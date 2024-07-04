@@ -1,4 +1,9 @@
 # Final assignment
+## run transfer.py
+ You can use this script to transfer your picture.
+- put your pirctures at './Azhuan/A'
+- run the script with 'python transfer.py --model_name={your model name} --checkpoint_name={your checkpoint name} --no_dropout'
+- the results will be saved at './Azhuan/B'
 ## Prerequisites
 - Linux or macOS
 - Python 3
