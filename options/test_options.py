@@ -9,6 +9,8 @@ class TestOptions(BaseOptions):
 
     def initialize(self, parser):
         parser = BaseOptions.initialize(self, parser)  # define shared options
+        parser.add_argument('--checkpoint_name', type=str, default='latest_net_G.pth')
+        parser.add_argument('--model_name', type=str, default='style_vangogh_pretrained')
         parser.add_argument('--results_dir', type=str, default='./Azhuan/', help='saves Azhuan here.')
         parser.add_argument('--aspect_ratio', type=float, default=1.0, help='aspect ratio of result images')
         parser.add_argument('--phase', type=str, default='test', help='train, val, test, etc')
